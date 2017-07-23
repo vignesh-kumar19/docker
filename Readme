@@ -1,0 +1,8 @@
+Steps to build image
+1. Go to centos-jre-python directory and run below command
+  # bash build
+2. Go to tomcat-mongo directory and run below command 
+  # bash build
+
+Command to Run container
+  # docker run -d -p 7080:8080 --name=tomcat-mongo viki19/tomcat-mongo:0.7.24
